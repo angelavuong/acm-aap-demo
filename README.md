@@ -32,6 +32,11 @@ db_user: postgres
 db_password: secret-password
 ```
 
+Once postgresql is installed, verify the database was created on the server:
+```
+$ sudo -u postgres psql
+```
+
 Resource: https://stribny.name/blog/ansible-postgresql/
 
 
