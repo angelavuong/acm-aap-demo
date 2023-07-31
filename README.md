@@ -24,7 +24,16 @@ controller_host: <controller-host.com>
 controller_oauthtoken: <token-here>
 ```
 ## PostgreSQL Install 
+When using the postgresql_install.yml, be sure to specify the variables: 
+```
+---
+db_name: postgres
+db_user: postgres
+db_password: secret-password
+```
+
 Resource: https://stribny.name/blog/ansible-postgresql/
+
 
 ## MongoDB repository
 
