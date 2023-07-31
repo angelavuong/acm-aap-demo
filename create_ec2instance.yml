@@ -65,6 +65,7 @@
     - name: Launch an EC2 Instance
       amazon.aws.ec2_instance:
         name: "{{ ec2_instance_name }}"
+        state: running
         key_name: "{{ key_name }}"
         vpc_subnet_id: "{{ subnet.subnet.id }}"
         instance_type: "{{ instance_type }}"
