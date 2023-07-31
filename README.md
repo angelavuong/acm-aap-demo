@@ -20,6 +20,8 @@ key_name: ansible-demo
 vpc_name: ansible-vpc
 cidr_block: "10.10.0.0/16"
 cidr: "10.10.0.0/24"
+controller_host: <controller-host.com>
+controller_oauthtoken: <token-here>
 ```
 ## PostgreSQL Install 
 Resource: https://stribny.name/blog/ansible-postgresql/
