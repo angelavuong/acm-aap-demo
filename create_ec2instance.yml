@@ -83,8 +83,8 @@
     - name: Create DNS record in Route53 for our server
       amazon.aws.route53:
         state: present
-        zone: "sandbox31.opentlc.com"
-        record: "{{ ec2_instance_name }}.sandbox31.opentlc.com"
+        zone: "sandbox2898.opentlc.com"
+        record: "{{ ec2_instance_name }}.sandbox2898.opentlc.com"
         type: A
         value: "{{ ec2.instances[0].public_ip_address }}"
 
